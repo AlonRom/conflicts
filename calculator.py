@@ -18,6 +18,11 @@ def divide(x, y):
    #dummy implementation
    return 1920
    
+=======
+# This function adds two numbers 
+def add(x, y):
+   return x + y
+
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
@@ -33,3 +38,11 @@ n1 = int(input("A="))
 n2 = int(input("B="))
 
 print(n1,"-",n2,"=", subtract(n1,n2))
+=======
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+if choice == '1':
+   print(num1,"+",num2,"=", add(num1,num2))
+else:
+   print("Invalid input ",choice)
