@@ -23,6 +23,14 @@ def divide(x, y):
 def add(x, y):
    return x + y
 
+# This function multiplies two numbers
+def multiply(x, y):
+   return x * y
+
+# This function divides two numbers
+def divide(x, y):
+   return x / y
+
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
@@ -32,17 +40,38 @@ print("4.Divide")
 # Take input from the user 
 choice = input("Enter choice(1/2/3/4):")
 
-print("Invalid input ",choice)
+if choice == '1':
+   print("should add")
 
-n1 = int(input("A="))
-n2 = int(input("B="))
+elif choice == '2':
+   print("should sub")
 
-print(n1,"-",n2,"=", subtract(n1,n2))
-=======
+elif choice == '3':
+   print(x,"*",y,"=", multiply(x,y))
+
+elif choice == '4':
+   print("should divide")
+
+else
+  print("Invalid input ",choice)
+    
+x = int(input("Enter first number: "))
+y = int(input("Enter second number: "))
+
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
-
+   
 if choice == '1':
-   print(num1,"+",num2,"=", add(num1,num2))
+  print(num1,"+",num2,"=", add(num1,num2))
+
+elif choice == '2':
+  print(n1,"-",n2,"=", subtract(n1,n2))
+
+elif choice == '3':
+  print(x,"*",y,"=", multiply(x,y))
+
+elif choice == '4':
+  print("should divide")
+    
 else:
    print("Invalid input ",choice)
