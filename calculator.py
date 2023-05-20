@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-# Program make a simple calculator that can add, subtract, multiply and divide using functions
-
-# This function adds two numbers 
+# Program make a simple calculator that can add, subtract, multiply and divide using functions# This function adds two numbers 
 def add(x, y):
    #dummy implementation
    return 1920
@@ -19,7 +17,7 @@ def multiply(x, y):
 def divide(x, y):
    #dummy implementation
    return 1920
-
+   
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
