@@ -55,9 +55,6 @@ elif choice == '4':
 else
   print("Invalid input ",choice)
     
-x = int(input("Enter first number: "))
-y = int(input("Enter second number: "))
-
 num1 = int(input("Enter first number: "))
 num2 = int(input("Enter second number: "))
    
@@ -65,13 +62,13 @@ if choice == '1':
   print(num1,"+",num2,"=", add(num1,num2))
 
 elif choice == '2':
-  print(n1,"-",n2,"=", subtract(n1,n2))
+  print(num1,"-",num2,"=", subtract(num1,num2))
 
 elif choice == '3':
-  print(x,"*",y,"=", multiply(x,y))
+  print(num1,"*",y,"=", multiply(num1,num2))
 
 elif choice == '4':
-  print("should divide")
+   print(num1,"/",num2,"=", divide(num1,num2))
     
 else:
    print("Invalid input ",choice)
